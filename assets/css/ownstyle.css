@@ -14,8 +14,8 @@
 /* Modal Content/Box */
 .modal-content {
     background-color: rgba(222, 49, 49, 0.84);
-    margin: 10% auto; /* 15% from the top and centered */
-    width: 90%; /* Could be more or less, depending on screen size */
+    margin: 10% auto;
+    width: 90%;
 }
 
 /* The Close Button */
@@ -48,14 +48,16 @@
     font-weight: bold;
     color: rgba(13, 89, 125, 0.71);
     font-family: 'Bangers', cursive;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 .firs-phrase-img {
     vertical-align: middle;
     display: inline-block;
+}
+
+.firs-phrase-img > img {
     border-radius: 10px;
-    max-width: 90%;
     height: auto;
 }
 
