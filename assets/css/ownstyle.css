@@ -1,0 +1,169 @@
+/* The Modal (background) */
+.modal {
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: linear-gradient(to top left, purple, crimson, orangered, darkblue);
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: rgba(222, 49, 49, 0.84);
+    margin: 10% auto;
+    width: 90%;
+}
+
+/* The Close Button */
+.close {
+    color: rgb(13, 2, 56);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.firs-span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 240%;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(13, 89, 125, 0.71);
+    font-family: 'Bangers', cursive;
+    margin-right: 50px;
+}
+
+.firs-phrase-img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.firs-phrase-img > img {
+    border-radius: 10px;
+    height: auto;
+}
+
+
+.page {
+    background-color: rgba(101, 218, 212, 0.95);
+    border-radius: 10px;
+}
+
+main {
+    display: none;
+    background-image: url(../images/cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main:nth-last-child(3) {
+    margin-bottom: 0vh;
+}
+
+.avatar {
+    border-radius: 10%;
+    width: 100%;
+    height: auto;
+    border: 2px solid rgb(135, 186, 234);
+    padding: 4px;
+    transition: 1s linear .5s;
+    -webkit-transition: ease-in-out all 0.5s;
+    -moz-transition: ease-in-out all 0.5s;
+    -o-transition: ease-in-out all 0.5s;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.35);
+}
+
+.avatar:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.63);
+    transition: 1s linear .5s;
+    -webkit-transition: ease-in-out all 0.5s;
+    -moz-transition: ease-in-out all 0.5s;
+    -o-transition: ease-in-out all 0.5s;
+    transform: scale(1.2);
+}
+
+.contacts .twitter:hover {
+    color: #1da1f2;
+}
+
+.contacts .instagram:hover {
+    color: #e1623e;
+}
+
+ul.exeption {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.back-span-skill {
+    background: #42420f;
+    color: white;
+    border-radius: 2px;
+    margin-right: 5px;
+    padding: 1px;
+    font-size: 15px;
+}
+
+.back-span-character {
+    background: #2a8bb8;
+    color: aqua;
+    border-radius: 3px;
+    margin-right: 5px;
+    padding: 2px;
+    font-size: 15px;
+}
+
+.back-span-lesson {
+    background: #2204a5;
+    color: #c3ef71;
+    border-radius: 2px;
+    margin-right: 5px;
+    padding: 1px;
+    font-size: 20px;
+}
+
+.back-span-likes {
+    background: #9b0ca5;
+    color: #81f111;
+    border-radius: 2px;
+    margin-right: 5px;
+    padding: 2px;
+    font-size: 15px;
+}
+
+.back-span-dislikes {
+    background: #e80202;
+    color: #81f111;
+    border-radius: 2px;
+    margin-right: 5px;
+    padding: 2px;
+    font-size: 15px;
+}
+
+.back-span-wants {
+    background: #eaea33;
+    color: #363933;
+    border-radius: 2px;
+    margin-right: 5px;
+    padding: 2px;
+    font-size: 15px;
+}
