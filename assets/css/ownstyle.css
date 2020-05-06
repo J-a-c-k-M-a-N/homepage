@@ -44,3 +44,57 @@ ul.exeption {
     margin-left: 0px;
     padding-left: 0px;
 }
+
+.back-span-skill {
+    background: #42420f;
+    color: white;
+    border-radius: 2px;
+    margin-right: 5px;
+    padding: 1px;
+    font-size: 15px;
+}
+
+.back-span-character {
+    background: #2a8bb8;
+    color: aqua;
+    border-radius: 3px;
+    margin-right: 5px;
+    padding: 2px;
+    font-size: 15px;
+}
+
+.back-span-lesson {
+    background: #2204a5;
+    color: #c3ef71;
+    border-radius: 2px;
+    margin-right: 5px;
+    padding: 1px;
+    font-size: 20px;
+}
+
+.back-span-likes {
+    background: #9b0ca5;
+    color: #81f111;
+    border-radius: 2px;
+    margin-right: 5px;
+    padding: 2px;
+    font-size: 15px;
+}
+
+.back-span-dislikes {
+    background: #e80202;
+    color: #81f111;
+    border-radius: 2px;
+    margin-right: 5px;
+    padding: 2px;
+    font-size: 15px;
+}
+
+.back-span-wants {
+    background: #eaea33;
+    color: #363933;
+    border-radius: 2px;
+    margin-right: 5px;
+    padding: 2px;
+    font-size: 15px;
+}
